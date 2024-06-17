@@ -1,0 +1,40 @@
+
+body {
+    background-image:url("emoji.jpg");
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    height: 100vh;
+    color:hsl(268, 82%, 51%);
+
+}
+
+h1 {
+    text-shadow: 0px 7px 0px black;
+    line-height: 40px;
+    transform: rotate(-10deg);
+    margin:50px;
+    font-size:50px;
+}
+
+#stage {
+    width: 100%;
+    height: 60px;
+    padding: 30px 0;
+    font-size: 70px;
+    margin: 40px;
+}
+
+button {
+  
+    margin: 50px;
+    cursor: pointer;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background: hsl(268, 82%, 51%);
+    color: white;
+    font-family: inherit;
+    font-size: 25px;
+}
